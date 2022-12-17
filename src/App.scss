@@ -1,0 +1,44 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #cccccc;
+}
+
+.App{
+
+background-color: #000;
+// background: -webkit-linear-gradient(bottom right, #0F3694, #BE69A9);
+// background: -moz-linear-gradient(bottom right, #0F3694, #BE69A9);
+// background: linear-gradient(to top left, #0F3694, #BE69A9);
+
+
+
+    animation: gradeintRoll 5s linear infinite;
+    transition: all 1s ease;
+    position: relative;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+// @keyframes gradeintRoll {
+//     0% {
+
+//         background: conic-gradient(from 0deg, #0F3694, #BE69A9);
+//         transition: all 1s ease;
+//     }
+//     50%{
+//         background: conic-gradient(from -60deg, #0F3694, #BE69A9);
+//         transition: all 1s ease;
+//     }
+//     100% {
+//         background: conic-gradient(from 0deg, #0F3694, #BE69A9);
+//         transition: all 1s ease;
+//     }
+    
+// }
