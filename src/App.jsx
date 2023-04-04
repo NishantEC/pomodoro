@@ -10,7 +10,7 @@ function App() {
   return (
     <motion.div
       animate={{
-        background: `conic-gradient(from ${GradientAngle}, #1F241A, #0B49E1)`,
+        background: `conic-gradient(from ${GradientAngle},  #0B49E1,#1F241A)`,
 
       }}
       className="App"
